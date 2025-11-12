@@ -1,12 +1,13 @@
+// app/layout.js
 export const metadata = {
-  title: "masters-secrets",
-  description: "Exhibition temp",
+  title: "영국 문학 전시",
+  description: "Writers Revealed – 500 Years of Literature and Art",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
-      <body style={{ margin: 0, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif" }}>
+      <body>
         {children}
       </body>
     </html>
