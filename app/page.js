@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 // app/page.js
 import "./globals.css";
 
