@@ -1,4 +1,6 @@
-export const dynamic = "force-static";
+export const dynamic = "force-static";   // 정적 고정
+export const revalidate = 3600;          // (옵션) 1시간마다 재생성
+export const runtime = "edge";           // (옵션) 빌드 워커 타임아웃 줄이기export const dynamic = "force-static";
 // app/page.js
 import "./globals.css";
 
